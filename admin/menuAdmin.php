@@ -29,10 +29,10 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Painel de Controle<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="http://localhost/_site/admin/usuarios.php">Usuários</a>
+                            <a href="http://localhost/_site/admin/administrativo.php?link=2">Usuários</a>
                         </li>
                         <li>
-                            <a href="#">Cadastrar Usuário</a>
+                            <a href="http://localhost/_site/admin/administrativo.php?link=3">Cadastrar Usuário</a>
                         </li>
                     </ul>
                 <li>

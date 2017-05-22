@@ -60,7 +60,7 @@ session_start();
         <form class="form-signin" method="POST" action="valida_login.php">
             <h2 class="form-signin-heading">Somente para agentes:</h2>
             <label for="inputEmail" class="sr-only">Usuário</label>
-            <input type="email" name="inputEmail" class="form-control" placeholder="Usuário" required autofocus><br>
+            <input type="email" name="inputEmail" class="form-control" placeholder="E-mail" required autofocus><br>
             
             <label for="inputPassword" class="sr-only">Senha</label>
             <input type="password" name="inputPassword" class="form-control" placeholder="Senha" required>
@@ -69,7 +69,7 @@ session_start();
             <input type="checkbox" value="remember-me"> Lembrar - me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
       </form>
         <p class="text-center text-danger">
             <?php
